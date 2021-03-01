@@ -6,7 +6,6 @@ using namespace std;
 
 void teclado::tcl_setValor() 
 {
-	
 	interface::intf_imprimirNaTela("Digite o valor que deseja sacar:");
 	cin >> mValor;
 }

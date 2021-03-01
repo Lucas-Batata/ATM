@@ -1,2 +1,7 @@
-﻿  saidaNotas.cpp
+﻿  Source.cpp
+  entradaNotas.cpp
+  interfaceGrafica.cpp
+  saidaNotas.cpp
+  teclado.cpp
+  Generating Code...
   Project1.vcxproj -> C:\Users\lucas.batata\Desktop\ATM_PRINCIPAL\ATM_Principal\Debug\ATM_Principal.exe

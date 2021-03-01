@@ -1,4 +1,6 @@
-#pragma once
+#ifndef TECLADO_H_
+#define TECLADO_H_
+
 #include <iostream>
 using namespace std;
 
@@ -11,4 +13,5 @@ public:
 	int tcl_getValor();
 };
 
+#endif
 

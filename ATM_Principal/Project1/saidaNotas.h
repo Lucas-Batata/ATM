@@ -1,4 +1,6 @@
-#pragma once
+#ifndef NOTAS_H_
+#define NOSTAS_H_
+
 #include "notas.h"
 
 
@@ -12,3 +14,5 @@ public:
 	void sNt_sacar(int mSubtrair);
 	void sNt_imprimir();
 };
+
+#endif
