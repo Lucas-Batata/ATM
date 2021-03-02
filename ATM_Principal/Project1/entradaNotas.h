@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef ENTRADANOTAS_H_
 #define ENTRADANOTAS_H_
 

@@ -141,18 +141,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="entradaNotas.cpp" />
-    <ClCompile Include="interfaceGrafica.cpp" />
+    <ClCompile Include="factoryTeclado.cpp" />
+    <ClCompile Include="factoryTela.cpp" />
     <ClCompile Include="notas.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="teclado.cpp" />
     <ClCompile Include="saidaNotas.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="entradaNotas.h" />
-    <ClInclude Include="interfaceGrafica.h" />
     <ClInclude Include="notas.h" />
-    <ClInclude Include="teclado.h" />
     <ClInclude Include="saidaNotas.h" />
+    <ClInclude Include="tecladoAbstrato.h" />
+    <ClInclude Include="telaAbstracao.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

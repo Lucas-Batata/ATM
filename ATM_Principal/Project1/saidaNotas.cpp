@@ -1,6 +1,7 @@
 #include "saidaNotas.h"
-#include "interfaceGrafica.h"
 #include <string.h>
+#include <stdio.h>
+
 
 using namespace std;
 
@@ -94,15 +95,15 @@ void saidaNotas::sNt_imprimir() {
 
 	for (int i : saidaNotas::mQtdNotas) 
 	{
-		interface::intf_imprimirNaTela("Nota de ");
+		printf("Nota de ");
 		
-		interface::intf_imprimirNaTela(to_string(saidaNotas::mValor[j]));
+		printf("%d", saidaNotas::mValor[j]);
 
-		interface::intf_imprimirNaTela(" : ");
+		printf(" : ");
 
-		interface::intf_imprimirNaTela(to_string(i));
+		printf("%d", i);
 
-		interface::intf_imprimirNaTela("\n");
+		printf("\n");
 
 		j++;
 	}

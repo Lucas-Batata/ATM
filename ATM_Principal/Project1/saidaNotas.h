@@ -1,3 +1,5 @@
+#pragma once
+
 #ifndef NOTAS_H_
 #define NOSTAS_H_
 
